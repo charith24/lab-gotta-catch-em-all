@@ -1,5 +1,5 @@
 package testing;
-/*
+
 import org.junit.Test;
 
 import model.Pikachu;
@@ -10,8 +10,8 @@ public class TestPikachu {
 	
 	@Test
 	public void testCharacteristicsMethod() {
-		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type PokÃ©mon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the PokÃ©mon franchise mascot.","ELECTRIC","  RAICHU",112);
-		String temp = "Pikachu is an Electric-type PokÃ©mon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the PokÃ©mon franchise mascot.";
+		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.","ELECTRIC","  RAICHU",112);
+		String temp = "Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.";
 		assertEquals(temp,p.getCharacteristics());		
 		try {
 			Pikachu p1 = new Pikachu(null,0,null,null,null,0);
@@ -25,7 +25,7 @@ public class TestPikachu {
 	
 	@Test
 	public void testTypeMethod() {
-		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type PokÃ©mon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the PokÃ©mon franchise mascot.","ELECTRIC","  RAICHU",112);
+		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.","ELECTRIC","  RAICHU",112);
 		String temp = "ELECTRIC";
 		assertEquals(temp,p.getType());		
 		try {
@@ -40,7 +40,7 @@ public class TestPikachu {
 	
 	@Test
 	public void testEvolutionMethod() {
-		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type PokÃ©mon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the PokÃ©mon franchise mascot.","ELECTRIC","  RAICHU",112);
+		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.","ELECTRIC","  RAICHU",112);
 		String temp = "  RAICHU";
 		assertEquals(temp,p.getEvolution());		
 		try {
@@ -55,7 +55,7 @@ public class TestPikachu {
 	
 	@Test
 	public void testBaseExpMethod() {
-		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type PokÃ©mon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the PokÃ©mon franchise mascot.","ELECTRIC","  RAICHU",112);
+		Pikachu p = new Pikachu("AAA",4,"Pikachu is an Electric-type Pokémon, which was introduced in Generation I. Over the years, Pikachu has become so popular that it serves as the Pokémon franchise mascot.","ELECTRIC","  RAICHU",112);
 		int temp = 112;
 		assertEquals(temp,p.getBaseExp());		
 		try {
@@ -68,4 +68,3 @@ public class TestPikachu {
 		}
 	}
 }
-*/
